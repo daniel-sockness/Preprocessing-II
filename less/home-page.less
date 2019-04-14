@@ -75,6 +75,14 @@
       button {
         .button-mix(@button-bg, 200px, 30px, white, none, 5px);
       }
+      @media(max-width: 500px) {
+        width: 100%;
+
+        .btn {
+          display: flex;
+          justify-content: center;
+        }
+      }
     }
     @media(max-width: 500px) {
       flex-direction: column;
